@@ -493,6 +493,10 @@ h4 {
     color: #7a90a8;
     font-size: 24px;
     letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
 }
 
 .contact__wrapper h3 {
@@ -505,6 +509,7 @@ h4 {
 .contact__wrapper p {
     letter-spacing: 1px;
     padding-bottom: 60px;
+    
 }
 
 .contactdetails__wrapper {
@@ -539,7 +544,6 @@ h4 {
 .contacttext__wrapper {
     width: 100%;
     max-width: 40vw;
-    
 }
 
 .contacticon {
@@ -550,12 +554,99 @@ h4 {
 
 }
 
+.contactform__wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 40vw;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.namediv {
+    display: flex;
+    gap:12px;
+}
+
+
+input {
+  width: 100%; 
+  padding: 24px 18px; 
+  margin-bottom: 20px; 
+  margin-top: 8px;
+  border: 1px solid #7a90a8; 
+  background-color: #131c26;
+
+}
+
+#message {
+    height: 200px;
+}
+
+.contactform__wrapper button {
+    background-color: #ff5500;
+    color: #e2eaf3;
+    padding: 10px 28px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.contactform__wrapper button:hover {
+    background-color: #cf4703;
+    transition: 0.5s ease;
+
+}
 /* FOOTER */
 
 #footer {
 }
 
 .footer {
+    background-color: #131c26;
+    min-height: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footerlogo {
+    padding: 40px 100px;
+    color: #e2eaf3;
+    font-size: 22px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+}
+.footerlogoimg {
+    max-width: 40px;
+    margin-right: 20px;
+}
+
+.footercopyright {
+    color: #7a90a8;
+    display: flex;
+    padding: 0px 40px;
+
+}
+
+.footerlinks {
+    color: #7a90a8;
+    display: flex;
+    padding: 0px 40px;
+
+}
+
+.footerlink {
+    display: flex;
+    padding: 0px 16px;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 
 /* /* /* /* /* /* /* /* /* /* /* /* /* /* 

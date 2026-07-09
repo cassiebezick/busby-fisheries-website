@@ -206,12 +206,54 @@
                 </div><!-- end homeportdetails div-->
             </div><!-- end contactdetails__wrapper -->
         </div><!-- end contacttext__wrapper div -->
+        <div class="contactform__wrapper">
+        <form action="">
+            <div class="namediv">
+                <div class="field">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firstname">
+                </div><!-- field div end-->
+                <div class="field">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname">
+                </div><!-- field div end-->
+                </div><!-- name div end -->
+            
+             <label for="email">EMAIL</label>
+            <input type="email" id="email">
+            <br>
+             <label for="inquiry">INQUIRY TYPE</label>
+             <input type="text" id="inquiry">
+            <br>
+             <label for="message">MESSAGE</label>
+             <input type="text" id="message">
+             <button type="submit" onclick="getFormData()">SEND MESSAGE →</button>
+         </form>
+
+
+        </div><!-- contactform__wrapper end -->
+
       </section><!-- end contact__wrapper section -->
     </main>
 
 
 <!-- FOOTER -->
 
-    <footer class="footer" id="footer"></footer>
+    <footer class="footer" id="footer">
+        <div class="footer__wrapper">
+            <div class="footerlogo">
+                        <img src="./images/anchor.gif" class="footerlogoimg" alt="logo" />
+        BUSBY FISHERIES
+            </div>
+            <div class="footercopyright">© 2026 Busby Fisheries LLC · HOMER, AK · USCG Licensed · NMFS IFQ Permitted</div>
+            <div class="footerlinks">
+                <ul class="footerlinks">
+                    <li class="footerlink">PRIVACY</li>
+                    <li class="footerlink">LICENSING</li>
+                    <li class="footerlink">OTHER</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
