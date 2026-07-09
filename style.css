@@ -872,7 +872,145 @@ h1 {
 .footerlinks {
     font-display: none;
 }
+}
+
+
+
+
+/**/
+/**/
+/**/
+/*                            MEDIA QUERY SMALL SCREENS                   */
+/**/
+/**/
+/**/
+
+
+
+@media (min-width: 601px) and (max-width: 800px) {
+
+ul {
+  font-size: 16px;
+}
+
+.headerlogo__wrapper {
+  font-size: 16px;
+}
+
+.herotext__wrapper {
+  max-width: 80%;
+  padding: 160px 0px;
+}
+
+.herotext__wrapper h3 {
+  padding-bottom: 10px;
+}
+
+.herotext__wrapper h1 {
+  padding-bottom: 60px;
+}
+
+.stat__wrapper {
+  padding: 0px 20px;
+  font-size: 16px;
+}
+.largewhitefont {
+  font-size: 42px;
+}
+
+.medcyanfont {
+  font-size: 24px;
+}
+
+.vessel__wrapper {
+  flex-direction: column;
+}
+
+.vesseltext__wrapper {
+  max-width: 80vw;
+}
+
+.boat__img {
+  max-width: 80vw;
+  padding-bottom: 40px;
+}
+
+.operations__wrapper {
+  padding: 80px 20px;
+}
+
+.operationsinfo1__wrapper {
+  padding: 20px;
+  width: 32%;
+}
+
+.operationsinfo2__wrapper {
+  padding: 20px;
+  width: 32%;
+}
+
+.operationsinfo3__wrapper {
+  padding: 20px;
+  width: 32%;
+}
+
+.galleryheader__wrapper {
+  padding: 20px;
+}
+
+.gallerygrid__wrapper {
+  padding: 24px;
+  max-width: 95vw;
+}
+
+.contact__wrapper {
+  padding: 80px 20px;
+  flex-direction: column;
+}
+
+.contacttext__wrapper {
+  max-width: 90vw;
 
 }
+
+.contactform__wrapper {
+  max-width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__wrapper {
+  flex-direction: column;
+}
+
+.footerlogo {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.footerlinks {
+  display: none;
+}
+
+.footercopyright {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
